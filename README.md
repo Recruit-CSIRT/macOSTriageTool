@@ -105,6 +105,14 @@ To save the target file to Disk Image (dmg format), check "Save file into dmg" i
 In my testing, this option allows you to finish the copy faster instead of requiring more disk space.
 If the copy destination file system does not support the extended attributes of macOS, sometime copying by diito may fail. However, it may be obtained by using the dmg option.
 
+## Note
+These setting are recommended to triage more effectively.
+- Disable `SIP`
+- Allow Terminal app to have `Full Disk Access`
+
+Please refer the following document for more details.  
+[User Guide](https://drive.google.com/drive/folders/15bM7QlCoBxanIqjOw55n_bJDsX4Hjf47)
+
 ## Compile
 
 ### install of qt

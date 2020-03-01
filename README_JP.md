@@ -105,6 +105,15 @@ $ sudo ./mtt -root / -output /Volumes/USB -preset 2 -file /Volumes/USB/udf.txt -
 より早くコピーを終えることができます。 コピー先のファイルシステムがmacOS の extended attributes に対応して いない場合、diito によるコピーに失敗する場合かがありますが、
 dmg オプションを使用すると取得できることがあります。
 
+## 注意
+より効果的にファイルを収集するために以下の設定を行うことをお勧めします。
+- SIP の無効化
+- ターミナルのディスクフルアクセス許可
+
+詳細は以下のドキュメントを参照してください。  
+[ユーザガイド](https://drive.google.com/drive/folders/15bM7QlCoBxanIqjOw55n_bJDsX4Hjf47)
+
+
 ## コンパイル
 
 ### qtのインストール
